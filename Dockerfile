@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1.4
 
-FROM rust:1.89 AS builder
+FROM rust:1.91 AS builder
 
 # 1. Install build dependencies
 RUN apt-get update && apt-get install -y \
